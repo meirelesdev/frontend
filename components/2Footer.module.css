@@ -2,171 +2,169 @@
     background-color: #242424;
     font-family: 'calibrip';
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0px;
+    position: relative;
 }
 
 .titulo {
-    /* font-family: 'calibripnegrito';
+    font-family: 'calibripnegrito';
     color: rgb(255, 197, 37);
     margin-block-start: 0;
     padding-left: 55px;
-    padding-top: 15px; */
+    padding-top: 15px;
 }
 
 .quadrado {
-    /* width: 40px;
+    width: 40px;
     height: 50px;
     background-color: rgb(255, 197, 37);
     position: absolute;
     top: 42px;
-    left: 25px; */
+    left: 25px;
 }
 
 .subtitulo {
-    /* font-family: 'calibripnegrito';
+    font-family: 'calibripnegrito';
     font-size: 20px;
-    color: #f15000; */
+    color: #f15000;
 }
 
 .conteudo {
-    /* font-size: 20px;
-    color: white; */
+    font-size: 20px;
+    color: white;
 }
 
 .navinferior {
-    /* padding-right: 30px; */
+    padding-right: 30px;
 }
 
 #iconseta {
-    /* width: 13px;
-    margin-right: 5px; */
+    width: 13px;
+    margin-right: 5px;
 }
 
 .linksuteis {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    margin-left: 25px; */
+    margin-left: 25px;
 }
 
 .linkcontato {
-    /* display: flex; */
+    display: flex;
 }
 
 .conteudologo {
-    /* font-size: 18px;
+    font-size: 18px;
     line-height: 30px;
     font-weight: 600;
     color: white;
-    padding-right: 20px; */
+    padding-right: 20px;
 }
 
 
 .listalinks {
-    /* margin-left: 0;
+    margin-left: 0;
     font-size: 20px;
     font-weight: 600;
     list-style: none;
-    padding-inline-start: 0; */
+    padding-inline-start: 0;
 }
 
 .listalinks li a {
-    /* text-decoration: none;
-    color: white; */
+    text-decoration: none;
+    color: white;
 }
 
 .listalinks li {
-    /* padding-top: 6.5px; */
+    padding-top: 6.5px;
 }
 
 .ulbuttonsocial {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
+    
     
 }
 
 .listasociais {
-    /* margin-left: 0;
+    margin-left: 0;
     font-size: 25px;
     list-style: none;
-    padding-inline-start: 0; */
+    padding-inline-start: 0;
 }
 
 .listasociais li a {
-    /* text-decoration: none;
-    color: #f15000; */
+    text-decoration: none;
+    color: #f15000;
 }
 
 .listasociais li {
-    /* display: inline;
+    display: inline;
     padding-right: 8px;
-    padding-top: 5px; */
+    padding-top: 5px;
 }
 
 .botaosocial {
-	/* background-color:#030303;
+	background-color:#030303;
 	display:inline-block;
 	cursor:pointer;
 	color:#ff6f00;
 	font-family:Arial;
 	font-size:17px;
 	padding:9px 13px;
-	text-decoration:none; */
+	text-decoration:none;
 }
 
 .botaosocial:hover {
-	/* background-color:#303030; */
+	background-color:#303030;
 }
 
 .botaosocial:active {
-	/* position:relative;
-	top:1px; */
+	position:relative;
+	top:1px;
 }
 
 
 #icon {
-    /* width: 50px;
-    height: 50px; */
+    width: 50px;
+    height: 50px;
 }
 
 #iconsocial {
-    /* width: 35px;
-    height: 35px; */
+    width: 35px;
+    height: 35px;
 }
 
 .textologo {
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 45px;
     text-align: end;
-    padding-top: 160px; */
+    padding-top: 160px;
 }
-/* Ja editado*/
+
 .fundopreto {
     background-color: black;
     width: 100%;
     height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'calibrip';
-    font-weight: 500;
-    font-size: 13px;
-    color: white;
 }
 
 .fundopreto h1 {
-    /* font-size: 14px;
+    font-size: 14px;
     color: white;
     font-family: 'calibrip';
     text-align: center;
     padding-top: 40px;
     margin-block-start: 0;
-    margin-block-end: 0; */
+    margin-block-end: 0;
 }
 
-
+.logorodape {
+    width: 85px;
+}
 
 @media (max-width: 1400px) {
     .fundogray {

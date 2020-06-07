@@ -1,33 +1,20 @@
 import styles from './Header.module.css'
+import Head from 'next/head'
 import Link from 'next/link' 
+import Logo from './Logo'
+import Nav from './Nav'
+import StudantArea from './StudantAccess'
 
-export default () => {
+
+export default function header(props){
     return (
         <>
-            <Link  href="/">
-                <a>
-                    <img className={styles["logo"]} src="assets/Logo/Fitness.svg" id="logo" alt="Logo" />
-                </a>
-            </Link>
-            
-            <div className={styles["headerfundo"]}>
-                
-                <Link href="/studentArea" >
-                    <a className={styles["btnlogin"]}>
-                        <img src="assets/Icon/user.svg" id={styles["icon"]} />
-                    </a>
-                </Link>
-
-                <ul className={styles["navbar"]} >
-                    <li><Link href="/" ><a>Home</a></Link></li>
-                    <li><Link href="/sobrenos" ><a>Sobre nós</a></Link></li>
-                    <li><Link href="/" ><a>Galeria</a></Link></li>
-                    <li><Link href="/planos" ><a>Planos</a></Link></li>
-                    <li><Link href="/" ><a>Blog</a></Link></li>
-                    <li><Link href="/" ><a>Contato</a></Link></li>
-                </ul>
-
-            </div><a></a>
+        <Head />
+        <header className={`${props.Aclasse?props.Aclasse:styles.headerAll}`}>
+            <Logo />
+            <Nav />
+            <StudantArea />
+        </header>
         </>
     )
 }

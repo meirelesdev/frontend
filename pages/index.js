@@ -1,22 +1,15 @@
-import Header from '../components/Headerindex'
-import App from 'next/app'
-import Head from 'next/head'
+import head from 'next/head'
 import Link from 'next/link'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
-
-
 export default function Index() {
     return(
         <>
-            <Header/>
-
-            <Head />
+            <Header Aclasse="HeaderIndex" />
+            <section>
                 
-                <section>
-                    {/* so para ficar vizualmente melhor */}
-                </section>
-            
-            <Footer/>
+            </section>
+            <Footer />
         </>
     )
 }

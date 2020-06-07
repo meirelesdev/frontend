@@ -20,10 +20,8 @@ import styles from '../components/Contact.module.css';
 export default function Contact() {
     return(
         <>
-        <Header/>
-    
-        <h1 className={styles.teste}>Contatos</h1>
-        
+        <Header/>    
+        <h1 className={styles.teste}>Contatos</h1>        
         <form className={styles.form}>
             <div className={styles.fields}>
                 <Input type="text" name="name" label="Nome Completo"/>
@@ -33,8 +31,7 @@ export default function Contact() {
             <Textarea name="message" label="Mensagem" />
             <button type="submit">Enviar</button> 
             {/* Esperar ter o componente Button pra colocar aqui */}
-        </form>
-        
+        </form>        
         <Footer/>
         </>
     )

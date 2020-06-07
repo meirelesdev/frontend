@@ -1,0 +1,27 @@
+.menu{
+    flex: 1;
+    align-self: center;
+    display: none;
+    justify-content: center;
+    padding: 0;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+    border-bottom: 5px solid rgba(255,255,255,0);
+    padding: 15px;
+}
+.menu a:hover {
+    box-sizing: border-box;
+    border-bottom: 5px solid #f15000;
+}
+@media (min-width: 976px){
+    .menu{
+         display: flex;
+    }
+}
+@media (min-width: 1200px){
+}
